@@ -3,7 +3,7 @@ import styles from './Header.module.css'
 function Header () {
     return (
         <header className={styles.header}>
-            <span>WillianGabriel.dev</span>
+            <span>willianGabriel.dev</span>
             <nav>
                 <a href="">Home</a>
                 <a href="">Sobre</a>
