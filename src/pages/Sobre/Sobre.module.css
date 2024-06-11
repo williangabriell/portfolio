@@ -81,4 +81,5 @@
 
 .button:hover {
     background-color: var(--primary);
+    transition: all 0.5s;
 }

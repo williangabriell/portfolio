@@ -1,9 +1,14 @@
+import Card from "../../components/Card"
 
 function Projetos() {
     return (
-        <section>
+        <>
             <h2>Projetos</h2>
-        </section>
+                <Card />
+                <Card />
+                <Card />
+        </>
+
     )
 }
 
