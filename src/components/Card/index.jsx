@@ -2,11 +2,12 @@ import styles from './Card.module.css'
 import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa"
 import { BsArrowRight } from "react-icons/bs"
 
-function Card () {
+
+function Card({name, description, html_url}) {
     return (
         <section className={styles.card}>
-            <h3>Título do projeto</h3>
-            <p>texto descritivo do projeto.</p>
+            <h3>{name}</h3>
+            <p>{description}.</p>
             <div className={styles.card_footer}>
                 <div className={styles.card_icons}>
                     <FaHtml5 />
@@ -14,9 +15,9 @@ function Card () {
                     <FaJs />
                     <FaReact />
                 </div>
-                <button className={styles.button_card}>
+                <a href={html_url} target="_blank" rel="noopenner norefferer" className={styles.button_card}>
                     <BsArrowRight/>
-                </button>
+                </a>
             </div>
         </section>
     )
