@@ -7,7 +7,7 @@ function Contatos() {
         <section className={styles.contacts}>
             <h2>Contatos</h2>
             <h3>Entre em contato comigo</h3>
-            <p>Para que possamos conversar mais sobre.</p>
+            <p>Para que possamos conversar mais.</p>
             <div className={styles.icons}>
                 <a href="mailto:willianlopes20@hotmail.com" target='_blank' rel='noopener noreferrer'> <GoMail className={styles.icon} /></a>
                 <a href="https://wa.me/5581988129016?text=Ol%C3%A1,%20espero%20que%20esteja%20bem!%0A%0AEm%20breve%20responderei." target='_blank' rel='noopener noreferrer'><BsWhatsapp className={styles.icon} /></a>
