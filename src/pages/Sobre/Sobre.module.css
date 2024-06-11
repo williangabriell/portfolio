@@ -64,6 +64,7 @@
 
 .sql {
     font-size: 70px;
+    color: var(--primary);
 }
 
 .button {
