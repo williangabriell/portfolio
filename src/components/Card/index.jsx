@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact } from "react-icons/fa"
 import { BsArrowRight } from "react-icons/bs"
 
 
-function Card({name, description, html_url}) {
+function Card({name, description, html_url}, languages) {
     return (
         <section className={styles.card}>
             <h3>{name}</h3>
