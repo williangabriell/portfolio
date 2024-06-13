@@ -7,6 +7,7 @@ import Page404 from "./pages/Page404";
 import PageBase from "./pages/PageBase";
 
 
+
 function AppRoutes() {
     return (
         <BrowserRouter>

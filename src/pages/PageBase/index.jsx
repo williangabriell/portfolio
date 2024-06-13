@@ -3,15 +3,15 @@ import Container from '../../components/Container'
 import Footer from '../../components/Footer'
 import { Outlet } from 'react-router-dom'
 
-function PageBase () {
+function PageBase() {
     return (
-            <main>
-                <Header/>
-                <Container>
-                    <Outlet/>
-                </Container>
-                <Footer/>
-            </main>
+        <main>
+            <Header />
+            <Container>
+                <Outlet />
+            </Container>
+            <Footer />
+        </main>
     )
 }
 
