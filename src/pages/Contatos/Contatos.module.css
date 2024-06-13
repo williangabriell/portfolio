@@ -33,3 +33,15 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+@media (max-width: 768px) {
+    .contacts {
+        padding-inline: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icons {
+        gap: 0.5rem;
+    }
+}
