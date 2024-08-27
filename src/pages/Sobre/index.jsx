@@ -5,6 +5,7 @@ import html from './images/icon-html.svg'
 import css from './images/icon-css.svg'
 import js from './images/icon-js.svg'
 import react from './images/icon-react.svg'
+import { SiTypescript } from "react-icons/si";
 
 
 
@@ -20,7 +21,7 @@ function Sobre() {
                         <strong>Dev Front End</strong>
                     </p>
                     <p>
-                        Trabalho com desenvolvimento Web desde 2022.
+                        Trabalho com desenvolvimento Web desde 2024.
                     </p>
                     <p>
                         Sou apaixonado por transformar ideias em realidade digital.
@@ -38,11 +39,13 @@ function Sobre() {
                     <img src={css} className={styles.expand} alt="Ícone do CSS" />
                     <img src={js} className={styles.expand} alt="Ícone do JS" />
                     <img src={react} className={styles.expand} alt="Ícone do React" />
-                    <div className={styles.sql}> <SiMysql className={styles.expand}/></div>
+                    <div className={styles.ts}><SiTypescript className={styles.expand} /></div>
+                    <div className={styles.sql}> <SiMysql className={styles.expand} /></div>
                 </div>
             </div>
-            <div>
-                <a href= "https://drive.google.com/uc?export=download&id=1P2u68T9IbuGSOrPxez1oLo0_asvRAG_4" className={styles.button}>Baixe meu Currículo</a>
+            <div className={styles.botoes}>
+                <a href="https://drive.google.com/uc?export=download&id=1P2u68T9IbuGSOrPxez1oLo0_asvRAG_4" className={styles.button}>Baixe meu Currículo</a>
+                <a href="https://drive.google.com/file/d/1P2u68T9IbuGSOrPxez1oLo0_asvRAG_4/view?usp=sharing" className={styles.button}>Visualização Online</a>
             </div>
         </section>
     )
