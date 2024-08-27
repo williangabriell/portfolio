@@ -28,7 +28,6 @@ function Projetos() {
                                     name={repo.name}
                                     description={repo.description}
                                     html_url={repo.html_url}
-
                                 />
                             ))
                         }
