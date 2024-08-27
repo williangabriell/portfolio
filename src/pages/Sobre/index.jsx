@@ -42,7 +42,7 @@ function Sobre() {
                 </div>
             </div>
             <div>
-                <a href= "https://drive.google.com/file/d/1P2u68T9IbuGSOrPxez1oLo0_asvRAG_4/view?usp=sharing" className={styles.button}>Baixe meu Currículo</a>
+                <a href= "https://drive.google.com/uc?export=download&id=1P2u68T9IbuGSOrPxez1oLo0_asvRAG_4" className={styles.button}>Baixe meu Currículo</a>
             </div>
         </section>
     )
